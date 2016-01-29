@@ -397,10 +397,15 @@ namespace ts {
                 }
                 // obtain item referenced by 'export='
                 mainModule = resolveExternalModuleSymbol(mainModule);
-                // if module symbol has already been merged - it is safe to use it.
-                // otherwise clone it
-                mainModule = mainModule.flags & SymbolFlags.Merged ? mainModule : cloneSymbol(mainModule);
-                mergeSymbol(mainModule, moduleAugmentation.symbol);
+                if (mainModule.flags & SymbolFlags.Namespace) {
+                    // if module symbol has already been merged - it is safe to use it.
+                    // otherwise clone it
+                    mainModule = mainModule.flags & SymbolFlags.Merged ? mainModule : cloneSymbol(mainModule);
+                    mergeSymbol(mainModule, moduleAugmentation.symbol);
+                }
+                else {
+                    error(moduleName, Diagnostics.Cannot_augment_module_0_that_resolves_to_a_non_module_entity, moduleName.text);
+                }
             }
         }
 
