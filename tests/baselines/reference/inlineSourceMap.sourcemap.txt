@@ -1,6 +1,6 @@
 ===================================================================
 JsFile: inlineSourceMap.js
-mapUrl: data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5saW5lU291cmNlTWFwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiaW5saW5lU291cmNlTWFwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBLElBQUksQ0FBQyxHQUFHLENBQUMsQ0FBQztBQUNWLE9BQU8sQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDLENBQUMifQ==
+mapUrl:
 sourceRoot: 
 sources: inlineSourceMap.ts
 ===================================================================
@@ -58,4 +58,4 @@ sourceFile:inlineSourceMap.ts
 7 >Emitted(2, 15) Source(3, 15) + SourceIndex(0)
 8 >Emitted(2, 16) Source(3, 16) + SourceIndex(0)
 ---
->>>//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5saW5lU291cmNlTWFwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiaW5saW5lU291cmNlTWFwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBLElBQUksQ0FBQyxHQUFHLENBQUMsQ0FBQztBQUNWLE9BQU8sQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDLENBQUMifQ==
+>>>//# sourceMappingURL=
