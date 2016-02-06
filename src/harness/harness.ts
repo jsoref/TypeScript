@@ -805,12 +805,36 @@ namespace Harness {
             return result;
         }
 
+        function readCoreES6Library(libFolder: string): string {
+            let coreES6Library = "";
+            const coreES6Components = [
+                "lib.es5.d.ts",
+                "lib.es6.core.d.ts",
+                "lib.es6.array.d.ts",
+                "lib.es6.map.d.ts",
+                "lib.es6.math.d.ts",
+                "lib.es6.number.d.ts",
+                "lib.es6.object.d.ts",
+                "lib.es6.promise.d.ts",
+                "lib.es6.proxy.d.ts",
+                "lib.es6.reflect.d.ts",
+                "lib.es6.set.d.ts",
+                "lib.es6.string.d.ts"
+            ].map(function (filename) {
+                    return libFolder + filename;
+            });
+            for (const lib of coreES6Components) {
+                coreES6Library = coreES6Library.concat(IO.readFile(lib));
+            }
+            return coreES6Library;
+        }
+
         const carriageReturnLineFeed = "\r\n";
         const lineFeed = "\n";
 
         export const defaultLibFileName = "lib.d.ts";
-        export const defaultLibSourceFile = createSourceFileAndAssertInvariants(defaultLibFileName, IO.readFile(libFolder + "lib.core.d.ts"), /*languageVersion*/ ts.ScriptTarget.Latest);
-        export const defaultES6LibSourceFile = createSourceFileAndAssertInvariants(defaultLibFileName, IO.readFile(libFolder + "lib.core.es6.d.ts"), /*languageVersion*/ ts.ScriptTarget.Latest);
+        export const defaultLibSourceFile = createSourceFileAndAssertInvariants(defaultLibFileName, IO.readFile(libFolder + "lib.es5.d.ts"), /*languageVersion*/ ts.ScriptTarget.Latest);
+        export const defaultES6LibSourceFile = createSourceFileAndAssertInvariants(defaultLibFileName, readCoreES6Library(libFolder), /*languageVersion*/ ts.ScriptTarget.Latest);
 
         // Cache these between executions so we don't have to re-parse them for every test
         export const fourslashFileName = "fourslash.ts";
