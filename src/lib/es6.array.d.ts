@@ -1,3 +1,4 @@
+
 /// <reference path="lib.es6.core.d.ts" />
 
 interface Array<T> {
