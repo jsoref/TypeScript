@@ -1413,7 +1413,7 @@ module Harness {
      *  extracts options and individual files in a multifile test
      */
     export module TestCaseParser {
-        /** all the necesarry information to set the right compiler settings */
+        /** all the necessary information to set the right compiler settings */
         export interface CompilerSetting {
             flag: string;
             value: string;
