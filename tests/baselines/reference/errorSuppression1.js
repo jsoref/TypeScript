@@ -1,4 +1,4 @@
-//// [errorSupression1.ts]
+//// [errorSuppression1.ts]
 
 class Foo { static bar() { return "x"; } }
 
@@ -8,7 +8,7 @@ baz.concat("y");
 
   // So we don't want an error on 'concat'.
 
-//// [errorSupression1.js]
+//// [errorSuppression1.js]
 var Foo = (function () {
     function Foo() {
     }
