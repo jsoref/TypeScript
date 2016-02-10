@@ -85,7 +85,7 @@ function blah2(a: string /* single line multiple trailing comments */ /* second 
 >a : string
 }
 
-function blah3(a: string // trailing commen single line
+function blah3(a: string // trailing comment single line
 >blah3 : (a: string) => void
 >a : string
 

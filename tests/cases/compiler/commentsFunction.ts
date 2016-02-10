@@ -33,7 +33,7 @@ multiline */) {
 function blah2(a: string /* single line multiple trailing comments */ /* second */) {
 }
 
-function blah3(a: string // trailing commen single line
+function blah3(a: string // trailing comment single line
     ) {
 }
 
