@@ -26,7 +26,7 @@ noError(null, [null, undefined]);
 noError(undefined, anyArray);
 
 class C {
-    constructor(emtpyArray: any, variable: any) {
+    constructor(emptyArray: any, variable: any) {
     }
 }
 

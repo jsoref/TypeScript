@@ -26,7 +26,7 @@ noError(null, [null, undefined]);
 noError(undefined, anyArray);
 
 class C {
-    constructor(emtpyArray: any, variable: any) {
+    constructor(emptyArray: any, variable: any) {
     }
 }
 
@@ -62,7 +62,7 @@ noError(undefined, []);
 noError(null, [null, undefined]);
 noError(undefined, anyArray);
 var C = (function () {
-    function C(emtpyArray, variable) {
+    function C(emptyArray, variable) {
     }
     return C;
 }());

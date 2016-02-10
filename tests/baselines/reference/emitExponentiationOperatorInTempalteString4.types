@@ -72,7 +72,7 @@ var s;
 >t2 : number
 >t1 : number
 
-// TempateHead & TemplateTail are empt
+// TempateHead & TemplateTail are empty
 `${t1 ** -t2} hello world ${t1 ** -t2}`;
 >`${t1 ** -t2} hello world ${t1 ** -t2}` : string
 >t1 ** -t2 : number

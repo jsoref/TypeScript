@@ -49,7 +49,7 @@ tests/cases/compiler/implicitAnyFunctionInvocationWithAnyArguments.ts(10,36): er
     noError(undefined, anyArray);
     
     class C {
-        constructor(emtpyArray: any, variable: any) {
+        constructor(emptyArray: any, variable: any) {
         }
     }
     
