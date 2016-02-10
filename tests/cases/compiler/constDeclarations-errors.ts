@@ -10,8 +10,8 @@ for(const c in {}) { }
 // error, assigning to a const
 for(const c8 = 0; c8 < 1; c8++) { }
 
-// error, can not be unintalized
+// error, can not be uninitialized
 for(const c9; c9 < 1;) { }
 
-// error, can not be unintalized
+// error, can not be uninitialized
 for(const c10 = 0, c11; c10 < 1;) { }
