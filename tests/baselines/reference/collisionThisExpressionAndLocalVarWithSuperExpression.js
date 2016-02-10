@@ -1,4 +1,4 @@
-//// [collisionThisExpressionAndLocalVarWithSuperExperssion.ts]
+//// [collisionThisExpressionAndLocalVarWithSuperExpression.ts]
 class a {
     public foo() {
     }
@@ -18,7 +18,7 @@ class b2 extends a {
     }
 }
 
-//// [collisionThisExpressionAndLocalVarWithSuperExperssion.js]
+//// [collisionThisExpressionAndLocalVarWithSuperExpression.js]
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
