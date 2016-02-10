@@ -1,4 +1,4 @@
-//// [parenthesizedContexualTyping3.ts]
+//// [parenthesizedContextualTyping3.ts]
 
 // Contextual typing for parenthesized substitution expressions in tagged templates.
 
@@ -20,7 +20,7 @@ var f = tempFun `${ x => x } ${ ((x => x)) } ${ 10 }`
 var g = tempFun `${ (x => x) } ${ (((x => x))) } ${ 10 }`
 var h = tempFun `${ (x => x) } ${ (((x => x))) } ${ undefined }`
 
-//// [parenthesizedContexualTyping3.js]
+//// [parenthesizedContextualTyping3.js]
 // Contextual typing for parenthesized substitution expressions in tagged templates.
 function tempFun(tempStrs, g, x) {
     return g(x);

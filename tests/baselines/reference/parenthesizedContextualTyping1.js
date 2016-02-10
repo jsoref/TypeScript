@@ -1,4 +1,4 @@
-//// [parenthesizedContexualTyping1.ts]
+//// [parenthesizedContextualTyping1.ts]
 
 function fun<T>(g: (x: T) => T, x: T): T;
 function fun<T>(g: (x: T) => T, h: (y: T) => T, x: T): T;
@@ -29,7 +29,7 @@ type ObjType = { x: (p: number) => string; y: (p: string) => number };
 var obj1: ObjType = { x: x => (x, undefined), y: y => (y, undefined) };
 var obj2: ObjType = ({ x: x => (x, undefined), y: y => (y, undefined) });
 
-//// [parenthesizedContexualTyping1.js]
+//// [parenthesizedContextualTyping1.js]
 function fun(g, x) {
     return g(x);
 }
