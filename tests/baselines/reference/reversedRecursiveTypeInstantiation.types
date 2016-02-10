@@ -1,4 +1,4 @@
-=== tests/cases/compiler/reversedRecusiveTypeInstantiation.ts ===
+=== tests/cases/compiler/reversedRecursiveTypeInstantiation.ts ===
 interface A<StringArgPos1, NumberArgPos2> {
 >A : A<StringArgPos1, NumberArgPos2>
 >StringArgPos1 : StringArgPos1

@@ -1,4 +1,4 @@
-//// [reversedRecusiveTypeInstantiation.ts]
+//// [reversedRecursiveTypeInstantiation.ts]
 interface A<StringArgPos1, NumberArgPos2> {
    xPos1 : StringArgPos1
    yPos2 : NumberArgPos2
@@ -10,6 +10,6 @@ a.zPos2Pos1.xPos1 = 1
 
 
 
-//// [reversedRecusiveTypeInstantiation.js]
+//// [reversedRecursiveTypeInstantiation.js]
 var a;
 a.zPos2Pos1.xPos1 = 1;
