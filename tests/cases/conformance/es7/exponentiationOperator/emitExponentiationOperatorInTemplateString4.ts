@@ -12,7 +12,7 @@ var s;
 `${(~t1) ** t2 ** --t1 } world`;
 `${typeof (t1 ** t2 ** t1) } world`;
 
-// TempateHead & TemplateTail are empt
+// TemplateHead & TemplateTail are empt
 `${t1 ** -t2} hello world ${t1 ** -t2}`;
 `${(-t1) ** t2 - t1} hello world ${(-t1) ** t2 - t1}`;
 `${(-++t1) ** t2 - t1} hello world ${t1 ** (-++t1) **- t1}`;
