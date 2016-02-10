@@ -11,8 +11,8 @@
 ////let [nameMB] = multiRobotB;
 ////let [nameMA, [primarySkillA, secondarySkillA]] = multiRobotA;
 ////
-////let [nameMC] = ["Roomba", ["vaccum", "mopping"]];
-////let [nameMC2, [primarySkillC, secondarySkillC]] = ["Roomba", ["vaccum", "mopping"]];
+////let [nameMC] = ["Roomba", ["vacuum", "mopping"]];
+////let [nameMC2, [primarySkillC, secondarySkillC]] = ["Roomba", ["vacuum", "mopping"]];
 ////
 ////let [...multiRobotAInfo] = multiRobotA;
 

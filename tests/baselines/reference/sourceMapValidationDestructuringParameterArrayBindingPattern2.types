@@ -78,13 +78,13 @@ foo1(robotA);
 >foo1 : ([, skillA]: [string, [string, string]]) => void
 >robotA : [string, [string, string]]
 
-foo1(["Roomba", ["vaccum", "mopping"]]);
->foo1(["Roomba", ["vaccum", "mopping"]]) : void
+foo1(["Roomba", ["vacuum", "mopping"]]);
+>foo1(["Roomba", ["vacuum", "mopping"]]) : void
 >foo1 : ([, skillA]: [string, [string, string]]) => void
->["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>["Roomba", ["vacuum", "mopping"]] : [string, [string, string]]
 >"Roomba" : string
->["vaccum", "mopping"] : [string, string]
->"vaccum" : string
+>["vacuum", "mopping"] : [string, string]
+>"vacuum" : string
 >"mopping" : string
 
 foo2(robotA);
@@ -92,13 +92,13 @@ foo2(robotA);
 >foo2 : ([nameMB]: [string, [string, string]]) => void
 >robotA : [string, [string, string]]
 
-foo2(["Roomba", ["vaccum", "mopping"]]);
->foo2(["Roomba", ["vaccum", "mopping"]]) : void
+foo2(["Roomba", ["vacuum", "mopping"]]);
+>foo2(["Roomba", ["vacuum", "mopping"]]) : void
 >foo2 : ([nameMB]: [string, [string, string]]) => void
->["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>["Roomba", ["vacuum", "mopping"]] : [string, [string, string]]
 >"Roomba" : string
->["vaccum", "mopping"] : [string, string]
->"vaccum" : string
+>["vacuum", "mopping"] : [string, string]
+>"vacuum" : string
 >"mopping" : string
 
 foo3(robotA);
@@ -106,13 +106,13 @@ foo3(robotA);
 >foo3 : ([nameMA, [primarySkillA, secondarySkillA]]: [string, [string, string]]) => void
 >robotA : [string, [string, string]]
 
-foo3(["Roomba", ["vaccum", "mopping"]]);
->foo3(["Roomba", ["vaccum", "mopping"]]) : void
+foo3(["Roomba", ["vacuum", "mopping"]]);
+>foo3(["Roomba", ["vacuum", "mopping"]]) : void
 >foo3 : ([nameMA, [primarySkillA, secondarySkillA]]: [string, [string, string]]) => void
->["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>["Roomba", ["vacuum", "mopping"]] : [string, [string, string]]
 >"Roomba" : string
->["vaccum", "mopping"] : [string, string]
->"vaccum" : string
+>["vacuum", "mopping"] : [string, string]
+>"vacuum" : string
 >"mopping" : string
 
 foo4(robotA);
@@ -120,12 +120,12 @@ foo4(robotA);
 >foo4 : ([...multiRobotAInfo]: [string, [string, string]]) => void
 >robotA : [string, [string, string]]
 
-foo4(["Roomba", ["vaccum", "mopping"]]);
->foo4(["Roomba", ["vaccum", "mopping"]]) : void
+foo4(["Roomba", ["vacuum", "mopping"]]);
+>foo4(["Roomba", ["vacuum", "mopping"]]) : void
 >foo4 : ([...multiRobotAInfo]: [string, [string, string]]) => void
->["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>["Roomba", ["vacuum", "mopping"]] : [string, [string, string]]
 >"Roomba" : string
->["vaccum", "mopping"] : [string, string]
->"vaccum" : string
+>["vacuum", "mopping"] : [string, string]
+>"vacuum" : string
 >"mopping" : string
 

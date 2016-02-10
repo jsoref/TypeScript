@@ -21,7 +21,7 @@
 ////[, nameB] = [2, "trimmer", "trimming"];
 ////[, multiSkillB] = multiRobotB;
 ////[, multiSkillB] = getMultiRobotB();
-////[, multiSkillB] = ["Roomba", ["vaccum", "mopping"]];
+////[, multiSkillB] = ["Roomba", ["vacuum", "mopping"]];
 ////
 ////[numberB] = robotB;
 ////[numberB] = getRobotB();

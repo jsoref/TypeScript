@@ -94,13 +94,13 @@ foo1(robotA);
 >foo1 : ([, skillA = ["noSkill", "noSkill"]]?: [string, string[]]) => void
 >robotA : [string, string[]]
 
-foo1(["Roomba", ["vaccum", "mopping"]]);
->foo1(["Roomba", ["vaccum", "mopping"]]) : void
+foo1(["Roomba", ["vacuum", "mopping"]]);
+>foo1(["Roomba", ["vacuum", "mopping"]]) : void
 >foo1 : ([, skillA = ["noSkill", "noSkill"]]?: [string, string[]]) => void
->["Roomba", ["vaccum", "mopping"]] : [string, string[]]
+>["Roomba", ["vacuum", "mopping"]] : [string, string[]]
 >"Roomba" : string
->["vaccum", "mopping"] : string[]
->"vaccum" : string
+>["vacuum", "mopping"] : string[]
+>"vacuum" : string
 >"mopping" : string
 
 foo2(robotA);
@@ -108,13 +108,13 @@ foo2(robotA);
 >foo2 : ([nameMB = "noName"]?: [string, string[]]) => void
 >robotA : [string, string[]]
 
-foo2(["Roomba", ["vaccum", "mopping"]]);
->foo2(["Roomba", ["vaccum", "mopping"]]) : void
+foo2(["Roomba", ["vacuum", "mopping"]]);
+>foo2(["Roomba", ["vacuum", "mopping"]]) : void
 >foo2 : ([nameMB = "noName"]?: [string, string[]]) => void
->["Roomba", ["vaccum", "mopping"]] : [string, string[]]
+>["Roomba", ["vacuum", "mopping"]] : [string, string[]]
 >"Roomba" : string
->["vaccum", "mopping"] : string[]
->"vaccum" : string
+>["vacuum", "mopping"] : string[]
+>"vacuum" : string
 >"mopping" : string
 
 foo3(robotA);
@@ -125,15 +125,15 @@ foo3(robotA);
 ] = ["noSkill", "noSkill"]]: [string, string[]]) => void
 >robotA : [string, string[]]
 
-foo3(["Roomba", ["vaccum", "mopping"]]);
->foo3(["Roomba", ["vaccum", "mopping"]]) : void
+foo3(["Roomba", ["vacuum", "mopping"]]);
+>foo3(["Roomba", ["vacuum", "mopping"]]) : void
 >foo3 : ([nameMA = "noName", [
     primarySkillA = "primary",
     secondarySkillA = "secondary"
 ] = ["noSkill", "noSkill"]]: [string, string[]]) => void
->["Roomba", ["vaccum", "mopping"]] : [string, string[]]
+>["Roomba", ["vacuum", "mopping"]] : [string, string[]]
 >"Roomba" : string
->["vaccum", "mopping"] : string[]
->"vaccum" : string
+>["vacuum", "mopping"] : string[]
+>"vacuum" : string
 >"mopping" : string
 
