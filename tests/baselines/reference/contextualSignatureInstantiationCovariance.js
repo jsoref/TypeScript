@@ -1,4 +1,4 @@
-//// [contextualSignatureInstatiationCovariance.ts]
+//// [contextualSignatureInstantiationCovariance.ts]
 interface Animal { x }
 interface TallThing { x2 }
 interface Giraffe extends Animal, TallThing { y }
@@ -11,7 +11,7 @@ g2 = f2; // While neither Animal nor TallThing satisfy the constraint, T is at w
 var h2: (a1: Animal, a2: Animal) => void;
 h2 = f2; // Animal does not satisfy the constraint, but T is at worst a Giraffe and compatible with Animal via covariance.
 
-//// [contextualSignatureInstatiationCovariance.js]
+//// [contextualSignatureInstantiationCovariance.js]
 var f2;
 var g2;
 g2 = f2; // While neither Animal nor TallThing satisfy the constraint, T is at worst a Giraffe and compatible with both via covariance.

@@ -1,4 +1,4 @@
-//// [contextualSignatureInstatiationContravariance.ts]
+//// [contextualSignatureInstantiationContravariance.ts]
 interface Animal { x }
 interface Giraffe extends Animal { y }
 interface Elephant extends Animal { y2 }
@@ -11,7 +11,7 @@ g2 = f2; // valid because both Giraffe and Elephant satisfy the constraint. T is
 var h2: (g1: Giraffe, g2: Giraffe) => void;
 h2 = f2; // valid because Giraffe satisfies the constraint. It is safe in the traditional contravariant fashion.
 
-//// [contextualSignatureInstatiationContravariance.js]
+//// [contextualSignatureInstantiationContravariance.js]
 var f2;
 var g2;
 g2 = f2; // valid because both Giraffe and Elephant satisfy the constraint. T is Animal
