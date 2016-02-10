@@ -1874,7 +1874,7 @@ module Harness {
         }
 
         export function runJSString(code: string, callback: (error: Error, result: any) => void ) {
-            // List of names that get overriden by various test code we eval
+            // List of names that get overridden by various test code we eval
             var dangerNames: any = ['Array'];
 
             var globalBackup: any = {};
@@ -3687,7 +3687,7 @@ var Harness;
         }
         Runner.runCollateral = runCollateral;
         function runJSString(code, callback) {
-            // List of names that get overriden by various test code we eval
+            // List of names that get overridden by various test code we eval
             var dangerNames = ['Array'];
             var globalBackup = {};
             var n = null;
