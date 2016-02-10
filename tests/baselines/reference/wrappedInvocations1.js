@@ -1,10 +1,10 @@
-//// [wrappedIncovations1.ts]
+//// [wrappedInvocations1.ts]
 var v = this
   .foo()
   .bar()
   .baz();
 
-//// [wrappedIncovations1.js]
+//// [wrappedInvocations1.js]
 var v = this
     .foo()
     .bar()
