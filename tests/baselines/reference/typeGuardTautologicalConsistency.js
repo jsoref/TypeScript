@@ -1,4 +1,4 @@
-//// [typeGuardTautologicalConsistiency.ts]
+//// [typeGuardTautologicalConsistency.ts]
 let stringOrNumber: string | number;
 
 if (typeof stringOrNumber === "number") {
@@ -12,7 +12,7 @@ if (typeof stringOrNumber === "number" && typeof stringOrNumber !== "number") {
 }
 
 
-//// [typeGuardTautologicalConsistiency.js]
+//// [typeGuardTautologicalConsistency.js]
 var stringOrNumber;
 if (typeof stringOrNumber === "number") {
     if (typeof stringOrNumber !== "number") {
