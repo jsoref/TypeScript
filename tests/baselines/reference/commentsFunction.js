@@ -20,9 +20,9 @@ var fooFunc = function FooFunctionValue(/** fooFunctionValue param */ b: string)
 
 /// lamdaFoo var comment
 var lambdaFoo = /** this is lambda comment*/ (/**param a*/a: number, /**param b*/b: number) => a + b;
-var lambddaNoVarComment = /** this is lambda multiplication*/ (/**param a*/a: number, /**param b*/b: number) => a * b;
+var lambdaNoVarComment = /** this is lambda multiplication*/ (/**param a*/a: number, /**param b*/b: number) => a * b;
 lambdaFoo(10, 20);
-lambddaNoVarComment(10, 20);
+lambdaNoVarComment(10, 20);
 
 function blah(a: string /* multiline trailing comment 
 multiline */) {
@@ -75,9 +75,9 @@ var fooFunc = function FooFunctionValue(/** fooFunctionValue param */ b) {
 };
 /// lamdaFoo var comment
 var lambdaFoo = function (/**param a*/ a, /**param b*/ b) { return a + b; };
-var lambddaNoVarComment = function (/**param a*/ a, /**param b*/ b) { return a * b; };
+var lambdaNoVarComment = function (/**param a*/ a, /**param b*/ b) { return a * b; };
 lambdaFoo(10, 20);
-lambddaNoVarComment(10, 20);
+lambdaNoVarComment(10, 20);
 function blah(a /* multiline trailing comment
     multiline */) {
 }
@@ -112,7 +112,7 @@ declare function fooWithParameters(/** this is comment about a*/ a: string,
  */
 declare var fooFunc: (b: string) => string;
 declare var lambdaFoo: (a: number, b: number) => number;
-declare var lambddaNoVarComment: (a: number, b: number) => number;
+declare var lambdaNoVarComment: (a: number, b: number) => number;
 declare function blah(a: string): void;
 declare function blah2(a: string): void;
 declare function blah3(a: string): void;

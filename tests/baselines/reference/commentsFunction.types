@@ -52,8 +52,8 @@ var lambdaFoo = /** this is lambda comment*/ (/**param a*/a: number, /**param b*
 >a : number
 >b : number
 
-var lambddaNoVarComment = /** this is lambda multiplication*/ (/**param a*/a: number, /**param b*/b: number) => a * b;
->lambddaNoVarComment : (a: number, b: number) => number
+var lambdaNoVarComment = /** this is lambda multiplication*/ (/**param a*/a: number, /**param b*/b: number) => a * b;
+>lambdaNoVarComment : (a: number, b: number) => number
 >(/**param a*/a: number, /**param b*/b: number) => a * b : (a: number, b: number) => number
 >a : number
 >b : number
@@ -67,9 +67,9 @@ lambdaFoo(10, 20);
 >10 : number
 >20 : number
 
-lambddaNoVarComment(10, 20);
->lambddaNoVarComment(10, 20) : number
->lambddaNoVarComment : (a: number, b: number) => number
+lambdaNoVarComment(10, 20);
+>lambdaNoVarComment(10, 20) : number
+>lambdaNoVarComment : (a: number, b: number) => number
 >10 : number
 >20 : number
 
