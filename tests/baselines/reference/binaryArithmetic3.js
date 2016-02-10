@@ -1,5 +1,5 @@
-//// [binaryArithmatic3.ts]
+//// [binaryArithmetic3.ts]
 var v = undefined | undefined;
 
-//// [binaryArithmatic3.js]
+//// [binaryArithmetic3.js]
 var v = undefined | undefined;
