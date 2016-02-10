@@ -1,4 +1,4 @@
-//// [sigantureIsSubTypeIfTheyAreIdentical.ts]
+//// [signatureIsSubTypeIfTheyAreIdentical.ts]
 interface ICache {
     get<T>(key: string): T;
 }
@@ -8,7 +8,7 @@ class CacheService implements ICache { // Should not error that property type of
     }
 }
 
-//// [sigantureIsSubTypeIfTheyAreIdentical.js]
+//// [signatureIsSubTypeIfTheyAreIdentical.js]
 var CacheService = (function () {
     function CacheService() {
     }
