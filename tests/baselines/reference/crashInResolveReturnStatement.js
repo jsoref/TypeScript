@@ -1,4 +1,4 @@
-//// [crashInresolveReturnStatement.ts]
+//// [crashInResolveReturnStatement.ts]
 class WorkItemToolbar {
     public onToolbarItemClick() {
         WITDialogs.createCopyOfWorkItem();
@@ -18,7 +18,7 @@ class WITDialogs {
 }
 
 
-//// [crashInresolveReturnStatement.js]
+//// [crashInResolveReturnStatement.js]
 var WorkItemToolbar = (function () {
     function WorkItemToolbar() {
     }
