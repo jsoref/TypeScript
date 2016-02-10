@@ -42,20 +42,20 @@ let [nameMA, [primarySkillA, secondarySkillA]] = multiRobotA;
 >secondarySkillA : string
 >multiRobotA : [string, [string, string]]
 
-let [nameMC] = ["roomba", ["vaccum", "mopping"]];
+let [nameMC] = ["Roomba", ["vaccum", "mopping"]];
 >nameMC : string
->["roomba", ["vaccum", "mopping"]] : [string, string[]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, string[]]
+>"Roomba" : string
 >["vaccum", "mopping"] : string[]
 >"vaccum" : string
 >"mopping" : string
 
-let [nameMC2, [primarySkillC, secondarySkillC]] = ["roomba", ["vaccum", "mopping"]];
+let [nameMC2, [primarySkillC, secondarySkillC]] = ["Roomba", ["vaccum", "mopping"]];
 >nameMC2 : string
 >primarySkillC : string
 >secondarySkillC : string
->["roomba", ["vaccum", "mopping"]] : [string, [string, string]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>"Roomba" : string
 >["vaccum", "mopping"] : [string, string]
 >"vaccum" : string
 >"mopping" : string

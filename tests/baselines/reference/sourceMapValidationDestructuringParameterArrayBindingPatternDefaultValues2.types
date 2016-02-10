@@ -94,11 +94,11 @@ foo1(robotA);
 >foo1 : ([, skillA = ["noSkill", "noSkill"]]?: [string, string[]]) => void
 >robotA : [string, string[]]
 
-foo1(["roomba", ["vaccum", "mopping"]]);
->foo1(["roomba", ["vaccum", "mopping"]]) : void
+foo1(["Roomba", ["vaccum", "mopping"]]);
+>foo1(["Roomba", ["vaccum", "mopping"]]) : void
 >foo1 : ([, skillA = ["noSkill", "noSkill"]]?: [string, string[]]) => void
->["roomba", ["vaccum", "mopping"]] : [string, string[]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, string[]]
+>"Roomba" : string
 >["vaccum", "mopping"] : string[]
 >"vaccum" : string
 >"mopping" : string
@@ -108,11 +108,11 @@ foo2(robotA);
 >foo2 : ([nameMB = "noName"]?: [string, string[]]) => void
 >robotA : [string, string[]]
 
-foo2(["roomba", ["vaccum", "mopping"]]);
->foo2(["roomba", ["vaccum", "mopping"]]) : void
+foo2(["Roomba", ["vaccum", "mopping"]]);
+>foo2(["Roomba", ["vaccum", "mopping"]]) : void
 >foo2 : ([nameMB = "noName"]?: [string, string[]]) => void
->["roomba", ["vaccum", "mopping"]] : [string, string[]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, string[]]
+>"Roomba" : string
 >["vaccum", "mopping"] : string[]
 >"vaccum" : string
 >"mopping" : string
@@ -125,14 +125,14 @@ foo3(robotA);
 ] = ["noSkill", "noSkill"]]: [string, string[]]) => void
 >robotA : [string, string[]]
 
-foo3(["roomba", ["vaccum", "mopping"]]);
->foo3(["roomba", ["vaccum", "mopping"]]) : void
+foo3(["Roomba", ["vaccum", "mopping"]]);
+>foo3(["Roomba", ["vaccum", "mopping"]]) : void
 >foo3 : ([nameMA = "noName", [
     primarySkillA = "primary",
     secondarySkillA = "secondary"
 ] = ["noSkill", "noSkill"]]: [string, string[]]) => void
->["roomba", ["vaccum", "mopping"]] : [string, string[]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, string[]]
+>"Roomba" : string
 >["vaccum", "mopping"] : string[]
 >"vaccum" : string
 >"mopping" : string

@@ -335,7 +335,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 5 >Emitted(18, 13) Source(23, 13) + SourceIndex(0)
 6 >Emitted(18, 14) Source(23, 14) + SourceIndex(0)
 ---
->>>foo1(["roomba", ["vaccum", "mopping"]]);
+>>>foo1(["Roomba", ["vaccum", "mopping"]]);
 1->
 2 >^^^^
 3 >    ^
@@ -355,7 +355,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 2 >foo1
 3 >    (
 4 >     [
-5 >      "roomba"
+5 >      "Roomba"
 6 >              , 
 7 >                [
 8 >                 "vaccum"
@@ -403,7 +403,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 5 >Emitted(20, 13) Source(26, 13) + SourceIndex(0)
 6 >Emitted(20, 14) Source(26, 14) + SourceIndex(0)
 ---
->>>foo2(["roomba", ["vaccum", "mopping"]]);
+>>>foo2(["Roomba", ["vaccum", "mopping"]]);
 1->
 2 >^^^^
 3 >    ^
@@ -423,7 +423,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 2 >foo2
 3 >    (
 4 >     [
-5 >      "roomba"
+5 >      "Roomba"
 6 >              , 
 7 >                [
 8 >                 "vaccum"
@@ -471,7 +471,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 5 >Emitted(22, 13) Source(29, 13) + SourceIndex(0)
 6 >Emitted(22, 14) Source(29, 14) + SourceIndex(0)
 ---
->>>foo3(["roomba", ["vaccum", "mopping"]]);
+>>>foo3(["Roomba", ["vaccum", "mopping"]]);
 1->
 2 >^^^^
 3 >    ^
@@ -491,7 +491,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 2 >foo3
 3 >    (
 4 >     [
-5 >      "roomba"
+5 >      "Roomba"
 6 >              , 
 7 >                [
 8 >                 "vaccum"
@@ -539,7 +539,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 5 >Emitted(24, 13) Source(32, 13) + SourceIndex(0)
 6 >Emitted(24, 14) Source(32, 14) + SourceIndex(0)
 ---
->>>foo4(["roomba", ["vaccum", "mopping"]]);
+>>>foo4(["Roomba", ["vaccum", "mopping"]]);
 1->
 2 >^^^^
 3 >    ^
@@ -560,7 +560,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 2 >foo4
 3 >    (
 4 >     [
-5 >      "roomba"
+5 >      "Roomba"
 6 >              , 
 7 >                [
 8 >                 "vaccum"

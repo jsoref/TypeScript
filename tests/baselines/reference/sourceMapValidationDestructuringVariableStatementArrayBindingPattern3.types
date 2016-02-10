@@ -104,13 +104,13 @@ let multiRobotAInfo: (string | [string, string])[];
 >getMultiRobotB() : [string, [string, string]]
 >getMultiRobotB : () => [string, [string, string]]
 
-[, multiSkillB] = ["roomba", ["vaccum", "mopping"]];
->[, multiSkillB] = ["roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+[, multiSkillB] = ["Roomba", ["vaccum", "mopping"]];
+>[, multiSkillB] = ["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
 >[, multiSkillB] : [undefined, [string, string]]
 > : undefined
 >multiSkillB : [string, string]
->["roomba", ["vaccum", "mopping"]] : [string, [string, string]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>"Roomba" : string
 >["vaccum", "mopping"] : [string, string]
 >"vaccum" : string
 >"mopping" : string

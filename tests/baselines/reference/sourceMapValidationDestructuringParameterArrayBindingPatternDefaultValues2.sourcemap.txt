@@ -327,7 +327,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPatternDefaultVa
 5 >Emitted(14, 13) Source(22, 13) + SourceIndex(0)
 6 >Emitted(14, 14) Source(22, 14) + SourceIndex(0)
 ---
->>>foo1(["roomba", ["vaccum", "mopping"]]);
+>>>foo1(["Roomba", ["vaccum", "mopping"]]);
 1->
 2 >^^^^
 3 >    ^
@@ -347,7 +347,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPatternDefaultVa
 2 >foo1
 3 >    (
 4 >     [
-5 >      "roomba"
+5 >      "Roomba"
 6 >              , 
 7 >                [
 8 >                 "vaccum"
@@ -395,7 +395,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPatternDefaultVa
 5 >Emitted(16, 13) Source(25, 13) + SourceIndex(0)
 6 >Emitted(16, 14) Source(25, 14) + SourceIndex(0)
 ---
->>>foo2(["roomba", ["vaccum", "mopping"]]);
+>>>foo2(["Roomba", ["vaccum", "mopping"]]);
 1->
 2 >^^^^
 3 >    ^
@@ -415,7 +415,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPatternDefaultVa
 2 >foo2
 3 >    (
 4 >     [
-5 >      "roomba"
+5 >      "Roomba"
 6 >              , 
 7 >                [
 8 >                 "vaccum"
@@ -463,7 +463,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPatternDefaultVa
 5 >Emitted(18, 13) Source(28, 13) + SourceIndex(0)
 6 >Emitted(18, 14) Source(28, 14) + SourceIndex(0)
 ---
->>>foo3(["roomba", ["vaccum", "mopping"]]);
+>>>foo3(["Roomba", ["vaccum", "mopping"]]);
 1->
 2 >^^^^
 3 >    ^
@@ -484,7 +484,7 @@ sourceFile:sourceMapValidationDestructuringParameterArrayBindingPatternDefaultVa
 2 >foo3
 3 >    (
 4 >     [
-5 >      "roomba"
+5 >      "Roomba"
 6 >              , 
 7 >                [
 8 >                 "vaccum"

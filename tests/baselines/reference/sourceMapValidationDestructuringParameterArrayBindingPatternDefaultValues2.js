@@ -21,13 +21,13 @@ function foo3([nameMA = "noName", [
 }
 
 foo1(robotA);
-foo1(["roomba", ["vaccum", "mopping"]]);
+foo1(["Roomba", ["vaccum", "mopping"]]);
 
 foo2(robotA);
-foo2(["roomba", ["vaccum", "mopping"]]);
+foo2(["Roomba", ["vaccum", "mopping"]]);
 
 foo3(robotA);
-foo3(["roomba", ["vaccum", "mopping"]]);
+foo3(["Roomba", ["vaccum", "mopping"]]);
 
 //// [sourceMapValidationDestructuringParameterArrayBindingPatternDefaultValues2.js]
 var robotA = ["trimmer", ["trimming", "edging"]];
@@ -44,9 +44,9 @@ function foo3(_a) {
     console.log(nameMA);
 }
 foo1(robotA);
-foo1(["roomba", ["vaccum", "mopping"]]);
+foo1(["Roomba", ["vaccum", "mopping"]]);
 foo2(robotA);
-foo2(["roomba", ["vaccum", "mopping"]]);
+foo2(["Roomba", ["vaccum", "mopping"]]);
 foo3(robotA);
-foo3(["roomba", ["vaccum", "mopping"]]);
+foo3(["Roomba", ["vaccum", "mopping"]]);
 //# sourceMappingURL=sourceMapValidationDestructuringParameterArrayBindingPatternDefaultValues2.js.map

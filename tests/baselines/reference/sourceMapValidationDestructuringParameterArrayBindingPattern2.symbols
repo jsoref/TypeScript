@@ -67,27 +67,27 @@ foo1(robotA);
 >foo1 : Symbol(foo1, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 4, 56))
 >robotA : Symbol(robotA, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 4, 3))
 
-foo1(["roomba", ["vaccum", "mopping"]]);
+foo1(["Roomba", ["vaccum", "mopping"]]);
 >foo1 : Symbol(foo1, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 4, 56))
 
 foo2(robotA);
 >foo2 : Symbol(foo2, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 8, 1))
 >robotA : Symbol(robotA, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 4, 3))
 
-foo2(["roomba", ["vaccum", "mopping"]]);
+foo2(["Roomba", ["vaccum", "mopping"]]);
 >foo2 : Symbol(foo2, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 8, 1))
 
 foo3(robotA);
 >foo3 : Symbol(foo3, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 12, 1))
 >robotA : Symbol(robotA, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 4, 3))
 
-foo3(["roomba", ["vaccum", "mopping"]]);
+foo3(["Roomba", ["vaccum", "mopping"]]);
 >foo3 : Symbol(foo3, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 12, 1))
 
 foo4(robotA);
 >foo4 : Symbol(foo4, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 16, 1))
 >robotA : Symbol(robotA, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 4, 3))
 
-foo4(["roomba", ["vaccum", "mopping"]]);
+foo4(["Roomba", ["vaccum", "mopping"]]);
 >foo4 : Symbol(foo4, Decl(sourceMapValidationDestructuringParameterArrayBindingPattern2.ts, 16, 1))
 

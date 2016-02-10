@@ -78,11 +78,11 @@ foo1(robotA);
 >foo1 : ([, skillA]: [string, [string, string]]) => void
 >robotA : [string, [string, string]]
 
-foo1(["roomba", ["vaccum", "mopping"]]);
->foo1(["roomba", ["vaccum", "mopping"]]) : void
+foo1(["Roomba", ["vaccum", "mopping"]]);
+>foo1(["Roomba", ["vaccum", "mopping"]]) : void
 >foo1 : ([, skillA]: [string, [string, string]]) => void
->["roomba", ["vaccum", "mopping"]] : [string, [string, string]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>"Roomba" : string
 >["vaccum", "mopping"] : [string, string]
 >"vaccum" : string
 >"mopping" : string
@@ -92,11 +92,11 @@ foo2(robotA);
 >foo2 : ([nameMB]: [string, [string, string]]) => void
 >robotA : [string, [string, string]]
 
-foo2(["roomba", ["vaccum", "mopping"]]);
->foo2(["roomba", ["vaccum", "mopping"]]) : void
+foo2(["Roomba", ["vaccum", "mopping"]]);
+>foo2(["Roomba", ["vaccum", "mopping"]]) : void
 >foo2 : ([nameMB]: [string, [string, string]]) => void
->["roomba", ["vaccum", "mopping"]] : [string, [string, string]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>"Roomba" : string
 >["vaccum", "mopping"] : [string, string]
 >"vaccum" : string
 >"mopping" : string
@@ -106,11 +106,11 @@ foo3(robotA);
 >foo3 : ([nameMA, [primarySkillA, secondarySkillA]]: [string, [string, string]]) => void
 >robotA : [string, [string, string]]
 
-foo3(["roomba", ["vaccum", "mopping"]]);
->foo3(["roomba", ["vaccum", "mopping"]]) : void
+foo3(["Roomba", ["vaccum", "mopping"]]);
+>foo3(["Roomba", ["vaccum", "mopping"]]) : void
 >foo3 : ([nameMA, [primarySkillA, secondarySkillA]]: [string, [string, string]]) => void
->["roomba", ["vaccum", "mopping"]] : [string, [string, string]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>"Roomba" : string
 >["vaccum", "mopping"] : [string, string]
 >"vaccum" : string
 >"mopping" : string
@@ -120,11 +120,11 @@ foo4(robotA);
 >foo4 : ([...multiRobotAInfo]: [string, [string, string]]) => void
 >robotA : [string, [string, string]]
 
-foo4(["roomba", ["vaccum", "mopping"]]);
->foo4(["roomba", ["vaccum", "mopping"]]) : void
+foo4(["Roomba", ["vaccum", "mopping"]]);
+>foo4(["Roomba", ["vaccum", "mopping"]]) : void
 >foo4 : ([...multiRobotAInfo]: [string, [string, string]]) => void
->["roomba", ["vaccum", "mopping"]] : [string, [string, string]]
->"roomba" : string
+>["Roomba", ["vaccum", "mopping"]] : [string, [string, string]]
+>"Roomba" : string
 >["vaccum", "mopping"] : [string, string]
 >"vaccum" : string
 >"mopping" : string

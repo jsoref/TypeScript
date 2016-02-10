@@ -22,16 +22,16 @@ function foo4([...multiRobotAInfo]: Robot) {
 }
 
 foo1(robotA);
-foo1(["roomba", ["vaccum", "mopping"]]);
+foo1(["Roomba", ["vaccum", "mopping"]]);
 
 foo2(robotA);
-foo2(["roomba", ["vaccum", "mopping"]]);
+foo2(["Roomba", ["vaccum", "mopping"]]);
 
 foo3(robotA);
-foo3(["roomba", ["vaccum", "mopping"]]);
+foo3(["Roomba", ["vaccum", "mopping"]]);
 
 foo4(robotA);
-foo4(["roomba", ["vaccum", "mopping"]]);
+foo4(["Roomba", ["vaccum", "mopping"]]);
 
 //// [sourceMapValidationDestructuringParameterArrayBindingPattern2.js]
 var robotA = ["trimmer", ["trimming", "edging"]];
@@ -52,11 +52,11 @@ function foo4(_a) {
     console.log(multiRobotAInfo);
 }
 foo1(robotA);
-foo1(["roomba", ["vaccum", "mopping"]]);
+foo1(["Roomba", ["vaccum", "mopping"]]);
 foo2(robotA);
-foo2(["roomba", ["vaccum", "mopping"]]);
+foo2(["Roomba", ["vaccum", "mopping"]]);
 foo3(robotA);
-foo3(["roomba", ["vaccum", "mopping"]]);
+foo3(["Roomba", ["vaccum", "mopping"]]);
 foo4(robotA);
-foo4(["roomba", ["vaccum", "mopping"]]);
+foo4(["Roomba", ["vaccum", "mopping"]]);
 //# sourceMappingURL=sourceMapValidationDestructuringParameterArrayBindingPattern2.js.map
