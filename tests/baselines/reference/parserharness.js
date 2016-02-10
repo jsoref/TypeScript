@@ -1101,7 +1101,7 @@ module Harness {
 
         /** Generates a .d.ts file for the given code
           * @param verifyNoDeclFile pass true when the given code should generate no decl file, false otherwise
-          * @param unitName add the given code under thie name, else use '0.ts'
+          * @param unitName add the given code under this name, else use '0.ts'
           * @param compilationContext a set of functions to be run before and after compiling this code for doing things like adding dependencies first
           * @param references the set of referenced files used by the given code
           */
@@ -3018,7 +3018,7 @@ var Harness;
         Compiler.TypeFactory = TypeFactory;
         /** Generates a .d.ts file for the given code
           * @param verifyNoDeclFile pass true when the given code should generate no decl file, false otherwise
-          * @param unitName add the given code under thie name, else use '0.ts'
+          * @param unitName add the given code under this name, else use '0.ts'
           * @param compilationContext a set of functions to be run before and after compiling this code for doing things like adding dependencies first
           * @param references the set of referenced files used by the given code
           */
