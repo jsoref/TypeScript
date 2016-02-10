@@ -40,7 +40,7 @@ describe('getFormattingEditsForRange', function() {
         it("formats on semicolon properly", function() {
             getFormattingEditsForRange('onSemiColon');
         });
-        it("formats enum with trailling tab characters properly", function() {
+        it("formats enum with trailing tab characters properly", function() {
             getFormattingEditsForRange('tabAfterCloseCurly');
         });
         it("formats object literal", function() {
