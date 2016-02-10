@@ -716,7 +716,7 @@ task("runtests", ["build-rules", "tests", builtLocalDirectory], function() {
     runConsoleTests('mocha-fivemat-progress-reporter', [], /*postLint*/ true);
 }, {async: true});
 
-desc("Generates code coverage data via instanbul");
+desc("Generates code coverage data via istanbul");
 task("generate-code-coverage", ["tests", builtLocalDirectory], function () {
     var cmd = 'istanbul cover node_modules/mocha/bin/_mocha -- -R min -t ' + testTimeout + ' ' + run;
     console.log(cmd);
