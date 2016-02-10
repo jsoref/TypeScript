@@ -1,6 +1,6 @@
 //// [constDeclarations-errors.ts]
 
-// error, missing intialicer
+// error, missing initialicer
 const c1;
 const c2: number;
 const c3, c4, c5 :string, c6;  // error, missing initializer
@@ -17,7 +17,7 @@ for(const c9; c9 < 1;) { }
 for(const c10 = 0, c11; c10 < 1;) { }
 
 //// [constDeclarations-errors.js]
-// error, missing intialicer
+// error, missing initialicer
 const c1;
 const c2;
 const c3, c4, c5, c6; // error, missing initializer
