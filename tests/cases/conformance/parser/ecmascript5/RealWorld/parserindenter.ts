@@ -270,7 +270,7 @@ module Formatting {
                 return indentationInfo;
             }
             else {
-                // Indent all semicolons except the ones that belong to the for statement parts (initalizer, condition, itnrement)
+                // Indent all semicolons except the ones that belong to the for statement parts (initalizer, condition, increment)
                 if (node.AuthorNode.Details.Kind != AuthorParseNodeKind.apnkFor) {
                     // The passed node is actually either the program or the list because semicolon doesn't belong
                     // to any statement in the tree, though the statement extends up to the semicolon position.
