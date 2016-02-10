@@ -25,10 +25,10 @@ x = myVariable;
 /** jsdocstyle comment - only this comment should be in .d.ts file*/
 var n = 30;
 
-/** var deckaration with comment on type as well*/
+/** var declaration with comment on type as well*/
 var y = /** value comment */ 20;
 
-/// var deckaration with comment on type as well
+/// var declaration with comment on type as well
 var yy =
     /// value comment
     20;
@@ -63,9 +63,9 @@ x = myVariable;
 /** triple slash comment1*/
 /** jsdocstyle comment - only this comment should be in .d.ts file*/
 var n = 30;
-/** var deckaration with comment on type as well*/
+/** var declaration with comment on type as well*/
 var y = 20;
-/// var deckaration with comment on type as well
+/// var declaration with comment on type as well
 var yy = 
 /// value comment
 20;
@@ -93,7 +93,7 @@ declare var x: number;
 /** triple slash comment1*/
 /** jsdocstyle comment - only this comment should be in .d.ts file*/
 declare var n: number;
-/** var deckaration with comment on type as well*/
+/** var declaration with comment on type as well*/
 declare var y: number;
 declare var yy: number;
 /** comment2 */

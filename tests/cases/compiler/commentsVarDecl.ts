@@ -27,10 +27,10 @@ x = myVariable;
 /** jsdocstyle comment - only this comment should be in .d.ts file*/
 var n = 30;
 
-/** var deckaration with comment on type as well*/
+/** var declaration with comment on type as well*/
 var y = /** value comment */ 20;
 
-/// var deckaration with comment on type as well
+/// var declaration with comment on type as well
 var yy =
     /// value comment
     20;
