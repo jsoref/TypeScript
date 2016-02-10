@@ -455,7 +455,7 @@ compileFile(servicesFile, servicesSources,[builtLocalDirectory, copyright].conca
 
                 prependFile(copyright, standaloneDefinitionsFile);
 
-                // Stanalone/web definition file using global 'ts' namespace
+                // Standalone/web definition file using global 'ts' namespace
                 jake.cpR(standaloneDefinitionsFile, nodeDefinitionsFile, {silent: true});
                 var definitionFileContents = fs.readFileSync(nodeDefinitionsFile).toString();
                 definitionFileContents = definitionFileContents.replace(/^(\s*)(export )?const enum (\S+) {(\s*)$/gm, '$1$2enum $3 {$4');
