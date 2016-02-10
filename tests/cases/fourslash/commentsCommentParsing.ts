@@ -29,7 +29,7 @@
 /////** this is multiple line jsdoc stule comment
 ////*New line1
 ////*New Line2*/
-/////** Shoul mege this line as well
+/////** Shoul merge this line as well
 ////* and this too*/ /** Another this one too*/
 ////function jsDocMultiLineMerge() {
 ////}
@@ -223,9 +223,9 @@ goTo.marker('4q');
 verify.quickInfoIs("function jsDocMultiLine(): void", "this is multiple line jsdoc stule comment\nNew line1\nNew Line2");
 
 goTo.marker('5');
-verify.currentSignatureHelpDocCommentIs("this is multiple line jsdoc stule comment\nNew line1\nNew Line2\nShoul mege this line as well\nand this too\nAnother this one too");
+verify.currentSignatureHelpDocCommentIs("this is multiple line jsdoc stule comment\nNew line1\nNew Line2\nShoul merge this line as well\nand this too\nAnother this one too");
 goTo.marker('5q');
-verify.quickInfoIs("function jsDocMultiLineMerge(): void", "this is multiple line jsdoc stule comment\nNew line1\nNew Line2\nShoul mege this line as well\nand this too\nAnother this one too");
+verify.quickInfoIs("function jsDocMultiLineMerge(): void", "this is multiple line jsdoc stule comment\nNew line1\nNew Line2\nShoul merge this line as well\nand this too\nAnother this one too");
 
 goTo.marker('6');
 verify.currentSignatureHelpDocCommentIs("jsdoc comment ");
