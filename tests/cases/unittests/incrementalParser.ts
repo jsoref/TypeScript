@@ -500,7 +500,7 @@ module ts {
         });
 
         it('Yield context 1',() => {
-            // We're changing from a non-generator to a genarator.  We can't reuse statement nodes.
+            // We're changing from a non-generator to a generator.  We can't reuse statement nodes.
             var source = "function foo() {\r\nyield(foo1);\r\n}";
 
             var oldText = ScriptSnapshot.fromString(source);
@@ -511,7 +511,7 @@ module ts {
         });
 
         it('Yield context 2',() => {
-            // We're changing from a generator to a non-genarator.  We can't reuse statement nodes.
+            // We're changing from a generator to a non-generator.  We can't reuse statement nodes.
             var source = "function *foo() {\r\nyield(foo1);\r\n}";
 
             var oldText = ScriptSnapshot.fromString(source);
