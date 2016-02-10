@@ -1,4 +1,4 @@
-//// [tests/cases/compiler/import_unneeded-require-when-referenecing-aliased-type-throug-array.ts] ////
+//// [tests/cases/compiler/import_unneeded-require-when-referencing-aliased-type-throug-array.ts] ////
 
 //// [b.ts]
 declare module "ITest" {
