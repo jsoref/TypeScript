@@ -44,7 +44,7 @@ function hasNonMatchingParameterType2(x: string): x is number {
     return true;
 }
 
-function hasNonMathcingGenericType<T>(a: string): a is T[] {
+function hasNonMatchingGenericType<T>(a: string): a is T[] {
     return true;
 }
 
@@ -192,7 +192,7 @@ function hasNonMatchingParameterType1(x) {
 function hasNonMatchingParameterType2(x) {
     return true;
 }
-function hasNonMathcingGenericType(a) {
+function hasNonMatchingGenericType(a) {
     return true;
 }
 var a;

@@ -140,7 +140,7 @@ tests/cases/conformance/expressions/typeGuards/typeGuardFunctionErrors.ts(137,39
         return true;
     }
     
-    function hasNonMathcingGenericType<T>(a: string): a is T[] {
+    function hasNonMatchingGenericType<T>(a: string): a is T[] {
                                                            ~~~
 !!! error TS2322: Type 'T[]' is not assignable to type 'string'.
         return true;
