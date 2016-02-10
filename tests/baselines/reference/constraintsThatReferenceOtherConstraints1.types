@@ -1,4 +1,4 @@
-=== tests/cases/compiler/constraintsThatReferenceOtherContstraints1.ts ===
+=== tests/cases/compiler/constraintsThatReferenceOtherConstraints1.ts ===
 interface Object { }
 >Object : Object
 

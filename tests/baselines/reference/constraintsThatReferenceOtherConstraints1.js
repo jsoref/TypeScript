@@ -1,4 +1,4 @@
-//// [constraintsThatReferenceOtherContstraints1.ts]
+//// [constraintsThatReferenceOtherConstraints1.ts]
 interface Object { }
 
 class Foo<T, U extends T> { }
@@ -9,7 +9,7 @@ class Bar<T extends Object, U extends T> {
 var x: Foo< { a: string }, { a: string; b: number }>; // Error 2 Type '{ a: string; b: number; }' does not satisfy the constraint 'T' for type 
 
 
-//// [constraintsThatReferenceOtherContstraints1.js]
+//// [constraintsThatReferenceOtherConstraints1.js]
 var Foo = (function () {
     function Foo() {
     }
