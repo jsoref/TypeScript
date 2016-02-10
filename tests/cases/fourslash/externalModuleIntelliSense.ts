@@ -1,6 +1,6 @@
 /// <reference path='fourslash.ts'/>
 
-// @Filename: externalModuleIntellisense_file0.ts
+// @Filename: externalModuleIntelliSense_file0.ts
 ////export = express;
 ////function express(): express.ExpressServer;
 ////module express {
@@ -12,9 +12,9 @@
 ////    }
 ////}
 
-// @Filename: externalModuleIntellisense_file1.ts
-///////<reference path='externalModuleIntellisense_file0.ts'/>
-////import express = require('./externalModuleIntellisense_file0');
+// @Filename: externalModuleIntelliSense_file1.ts
+///////<reference path='externalModuleIntelliSense_file0.ts'/>
+////import express = require('externalModuleIntelliSense_file0');
 ////var x = express();/*1*/
 
 goTo.marker('1');
