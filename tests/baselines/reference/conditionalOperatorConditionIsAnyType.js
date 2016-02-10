@@ -1,4 +1,4 @@
-//// [conditionalOperatorConditoinIsAnyType.ts]
+//// [conditionalOperatorConditionIsAnyType.ts]
 //Cond ? Expr1 : Expr2,  Cond is of any type, Expr1 and Expr2 have the same type
 var condAny: any;
 var x: any;
@@ -63,7 +63,7 @@ var resultIsString3 = x("x") ? exprString1 : exprString2;
 var resultIsObject3 = x.doSomeThing() ? exprIsObject1 : exprIsObject2;
 var resultIsStringOrBoolean5 = x.doSomeThing() ? exprString1 : exprBoolean1; // union
 
-//// [conditionalOperatorConditoinIsAnyType.js]
+//// [conditionalOperatorConditionIsAnyType.js]
 //Cond ? Expr1 : Expr2,  Cond is of any type, Expr1 and Expr2 have the same type
 var condAny;
 var x;

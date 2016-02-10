@@ -1,4 +1,4 @@
-//// [conditionalOperatorConditoinIsStringType.ts]
+//// [conditionalOperatorConditionIsStringType.ts]
 //Cond ? Expr1 : Expr2,  Cond is of string type, Expr1 and Expr2 have the same type
 var condString: string;
 
@@ -64,7 +64,7 @@ var resultIsObject3 = array[1] ? exprIsObject1 : exprIsObject2;
 var resultIsStringOrBoolean3 = typeof condString ? exprString1 : exprBoolean1; // union
 var resultIsStringOrBoolean4 = condString.toUpperCase ? exprString1 : exprBoolean1; // union
 
-//// [conditionalOperatorConditoinIsStringType.js]
+//// [conditionalOperatorConditionIsStringType.js]
 //Cond ? Expr1 : Expr2,  Cond is of string type, Expr1 and Expr2 have the same type
 var condString;
 var exprAny1;
