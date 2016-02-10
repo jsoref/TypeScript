@@ -117,7 +117,7 @@ declare namespace FourSlashInterface {
         private negative;
         not: verifyNegatable;
         constructor(negative?: boolean);
-        memberListContains(symbol: string, text?: string, documenation?: string, kind?: string): void;
+        memberListContains(symbol: string, text?: string, documentation?: string, kind?: string): void;
         memberListCount(expectedCount: number): void;
         completionListContains(symbol: string, text?: string, documentation?: string, kind?: string): void;
         completionListItemsCountIsGreaterThan(count: number): void;
