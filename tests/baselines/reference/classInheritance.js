@@ -1,8 +1,8 @@
-//// [classInheritence.ts]
+//// [classInheritance.ts]
 class B extends A { }
 class A extends A { }
 
-//// [classInheritence.js]
+//// [classInheritance.js]
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
