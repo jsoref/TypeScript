@@ -1,4 +1,4 @@
-=== tests/cases/compiler/anonterface.ts ===
+=== tests/cases/compiler/anointerface.ts ===
 module M {
 >M : typeof M
 

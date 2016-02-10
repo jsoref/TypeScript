@@ -1,4 +1,4 @@
-//// [anonterface.ts]
+//// [anointerface.ts]
 module M {
     export class C {
         m(fn:{ (n:number):string; },n2:number):string {
@@ -14,7 +14,7 @@ c.m(function(n) { return "hello: "+n; },18);
 
 
 
-//// [anonterface.js]
+//// [anointerface.js]
 var M;
 (function (M) {
     var C = (function () {
