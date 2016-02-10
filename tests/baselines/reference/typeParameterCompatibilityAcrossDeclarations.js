@@ -1,4 +1,4 @@
-//// [typeParameterCompatibilityAccrossDeclarations.ts]
+//// [typeParameterCompatibilityAcrossDeclarations.ts]
 var a = {
    x: function <T>(y: T): T { return null; }
 }
@@ -22,7 +22,7 @@ a2 = i2; // no error
 i2 = a2; // no error
 
 
-//// [typeParameterCompatibilityAccrossDeclarations.js]
+//// [typeParameterCompatibilityAcrossDeclarations.js]
 define(["require", "exports"], function (require, exports) {
     "use strict";
     var a = {
