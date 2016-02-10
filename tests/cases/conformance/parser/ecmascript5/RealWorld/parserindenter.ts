@@ -17,7 +17,7 @@
 
 
 module Formatting {
-    export class Indenter implements ILineIndenationResolver  {
+    export class Indenter implements ILineIndentationResolver  {
 
         private indentationBag: IndentationBag;
         private scriptBlockBeginLineNumber: number;
@@ -36,7 +36,7 @@ module Formatting {
             this.scriptBlockBeginLineNumber = -1;
             this.offsetIndentationDeltas = new Dictionary_int_int();     // text offset -> indentation delta
 
-            // by default the root (program) has zero indendation
+            // by default the root (program) has zero indentation
             this.tree.Root.SetIndentationOverride("");
 
             this.ApplyScriptBlockIndentation(this.languageHostIndentation, this.tree);
@@ -257,7 +257,7 @@ module Formatting {
                 return null;
             }
 
-            // effective identation of the block
+            // effective indentation of the block
             indentationInfo = node.GetEffectiveIndentation(this);
             return indentationInfo;
         }
