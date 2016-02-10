@@ -1,4 +1,4 @@
-//// [implicitAnyFunctionInvocationWithAnyArguements.ts]
+//// [implicitAnyFunctionInvocationWithAnyArguments.ts]
 // this should be errors
 var arg0 = null;  // error at "arg0"
 var anyArray = [null, undefined];  // error at array literal
@@ -35,7 +35,7 @@ var newC1 = new C([], arg0);
 var newC2 = new C(<any>[], null) 
 
 
-//// [implicitAnyFunctionInvocationWithAnyArguements.js]
+//// [implicitAnyFunctionInvocationWithAnyArguments.js]
 // this should be errors
 var arg0 = null; // error at "arg0"
 var anyArray = [null, undefined]; // error at array literal
