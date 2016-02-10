@@ -1,11 +1,11 @@
-//// [moduleRedifinitionErrors.ts]
+//// [moduleRedefinitionErrors.ts]
 class A {
 }
 module A {
 }
 
 
-//// [moduleRedifinitionErrors.js]
+//// [moduleRedefinitionErrors.js]
 var A = (function () {
     function A() {
     }
