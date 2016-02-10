@@ -21,14 +21,14 @@ function jsDocSingleLine() {
 jsDocSingleLine();
 
 
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 function jsDocMultiLine() {
 }
 jsDocMultiLine();
 
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 /** Should merge this line as well

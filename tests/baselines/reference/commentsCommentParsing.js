@@ -19,14 +19,14 @@ function jsDocSingleLine() {
 jsDocSingleLine();
 
 
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 function jsDocMultiLine() {
 }
 jsDocMultiLine();
 
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 /** Should merge this line as well
@@ -169,13 +169,13 @@ multiLine();
 function jsDocSingleLine() {
 }
 jsDocSingleLine();
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 function jsDocMultiLine() {
 }
 jsDocMultiLine();
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 /** Should merge this line as well
@@ -296,11 +296,11 @@ declare function simple(): void;
 declare function multiLine(): void;
 /** this is eg of single line jsdoc style comment */
 declare function jsDocSingleLine(): void;
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 declare function jsDocMultiLine(): void;
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 /** Should merge this line as well

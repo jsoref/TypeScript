@@ -25,7 +25,7 @@ jsDocSingleLine();
 >jsDocSingleLine : Symbol(jsDocSingleLine, Decl(commentsCommentParsing.ts, 12, 12))
 
 
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 function jsDocMultiLine() {
@@ -34,7 +34,7 @@ function jsDocMultiLine() {
 jsDocMultiLine();
 >jsDocMultiLine : Symbol(jsDocMultiLine, Decl(commentsCommentParsing.ts, 17, 18))
 
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 /** Should merge this line as well

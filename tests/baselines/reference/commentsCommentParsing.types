@@ -28,7 +28,7 @@ jsDocSingleLine();
 >jsDocSingleLine : () => void
 
 
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 function jsDocMultiLine() {
@@ -38,7 +38,7 @@ jsDocMultiLine();
 >jsDocMultiLine() : void
 >jsDocMultiLine : () => void
 
-/** this is multiple line jsdoc stule comment
+/** this is multiple line jsdoc style comment
 *New line1
 *New Line2*/
 /** Should merge this line as well
