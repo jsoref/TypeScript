@@ -99,7 +99,7 @@ function b3(): A | b is A {
     return true;
 };
 
-// Non-compatiable type predicate positions for signature declarations
+// Non-compatible type predicate positions for signature declarations
 class D {
     constructor(p1: A): p1 is C {
         return true;
