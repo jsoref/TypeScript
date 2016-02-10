@@ -1,4 +1,4 @@
-//// [tests/cases/compiler/reactNamespaceImportPresevation.tsx] ////
+//// [tests/cases/compiler/reactNamespaceImportPreservation.tsx] ////
 
 //// [modules.d.ts]
 
