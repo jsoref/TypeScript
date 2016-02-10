@@ -1,12 +1,12 @@
 ===================================================================
-JsFile: sourceMapValidationDestructuringParametertArrayBindingPattern2.js
-mapUrl: sourceMapValidationDestructuringParametertArrayBindingPattern2.js.map
+JsFile: sourceMapValidationDestructuringParameterArrayBindingPattern2.js
+mapUrl: sourceMapValidationDestructuringParameterArrayBindingPattern2.js.map
 sourceRoot: 
-sources: sourceMapValidationDestructuringParametertArrayBindingPattern2.ts
+sources: sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 ===================================================================
 -------------------------------------------------------------------
-emittedFile:tests/cases/compiler/sourceMapValidationDestructuringParametertArrayBindingPattern2.js
-sourceFile:sourceMapValidationDestructuringParametertArrayBindingPattern2.ts
+emittedFile:tests/cases/compiler/sourceMapValidationDestructuringParameterArrayBindingPattern2.js
+sourceFile:sourceMapValidationDestructuringParameterArrayBindingPattern2.ts
 -------------------------------------------------------------------
 >>>var robotA = ["trimmer", ["trimming", "edging"]];
 1 >
@@ -585,4 +585,4 @@ sourceFile:sourceMapValidationDestructuringParametertArrayBindingPattern2.ts
 13>Emitted(25, 40) Source(33, 40) + SourceIndex(0)
 14>Emitted(25, 41) Source(33, 41) + SourceIndex(0)
 ---
->>>//# sourceMappingURL=sourceMapValidationDestructuringParametertArrayBindingPattern2.js.map
+>>>//# sourceMappingURL=sourceMapValidationDestructuringParameterArrayBindingPattern2.js.map

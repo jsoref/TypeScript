@@ -1,14 +1,14 @@
-=== tests/cases/compiler/paramterDestructuringDeclaration.ts ===
+=== tests/cases/compiler/parameterDestructuringDeclaration.ts ===
 
 interface C {
->C : Symbol(C, Decl(paramterDestructuringDeclaration.ts, 0, 0))
+>C : Symbol(C, Decl(parameterDestructuringDeclaration.ts, 0, 0))
 
     ({p: name}): any;
 >p : Symbol(p)
->name : Symbol(name, Decl(paramterDestructuringDeclaration.ts, 2, 6))
+>name : Symbol(name, Decl(parameterDestructuringDeclaration.ts, 2, 6))
 
     new ({p: boolean}): any;
 >p : Symbol(p)
->boolean : Symbol(boolean, Decl(paramterDestructuringDeclaration.ts, 3, 10))
+>boolean : Symbol(boolean, Decl(parameterDestructuringDeclaration.ts, 3, 10))
 }
 

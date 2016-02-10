@@ -1,4 +1,4 @@
-//// [prameterDestructuringDeclaration.ts]
+//// [parameterDestructuringDeclaration.ts]
 
 interface C {
     ({p: name}): any;
@@ -6,10 +6,10 @@ interface C {
 }
 
 
-//// [paramterDestructuringDeclaration.js]
+//// [parameterDestructuringDeclaration.js]
 
 
-//// [paramterDestructuringDeclaration.d.ts]
+//// [parameterDestructuringDeclaration.d.ts]
 interface C {
     ({p: name}: {
         p: any;

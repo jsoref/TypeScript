@@ -1,4 +1,4 @@
-//// [sourceMapValidationDestructuringParametertArrayBindingPattern2.ts]
+//// [sourceMapValidationDestructuringParameterArrayBindingPattern2.ts]
 declare var console: {
     log(msg: any): void;
 }
@@ -33,7 +33,7 @@ foo3(["roomba", ["vaccum", "mopping"]]);
 foo4(robotA);
 foo4(["roomba", ["vaccum", "mopping"]]);
 
-//// [sourceMapValidationDestructuringParametertArrayBindingPattern2.js]
+//// [sourceMapValidationDestructuringParameterArrayBindingPattern2.js]
 var robotA = ["trimmer", ["trimming", "edging"]];
 function foo1(_a) {
     var skillA = _a[1];
@@ -59,4 +59,4 @@ foo3(robotA);
 foo3(["roomba", ["vaccum", "mopping"]]);
 foo4(robotA);
 foo4(["roomba", ["vaccum", "mopping"]]);
-//# sourceMappingURL=sourceMapValidationDestructuringParametertArrayBindingPattern2.js.map
+//# sourceMappingURL=sourceMapValidationDestructuringParameterArrayBindingPattern2.js.map

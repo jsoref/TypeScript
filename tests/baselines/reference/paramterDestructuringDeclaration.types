@@ -1,4 +1,4 @@
-=== tests/cases/compiler/paramterDestructuringDeclaration.ts ===
+=== tests/cases/compiler/parameterDestructuringDeclaration.ts ===
 
 interface C {
 >C : C
