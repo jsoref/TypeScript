@@ -515,7 +515,7 @@ tests/cases/conformance/parser/ecmascript5/RealWorld/parserindenter.ts(736,38): 
                     return indentationInfo;
                 }
                 else {
-                    // Indent all semicolons except the ones that belong to the for statement parts (initalizer, condition, increment)
+                    // Indent all semicolons except the ones that belong to the for statement parts (initializer, condition, increment)
                     if (node.AuthorNode.Details.Kind != AuthorParseNodeKind.apnkFor) {
                                                         ~~~~~~~~~~~~~~~~~~~
 !!! error TS2304: Cannot find name 'AuthorParseNodeKind'.

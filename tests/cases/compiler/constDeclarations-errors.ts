@@ -3,7 +3,7 @@
 // error, missing intialicer
 const c1;
 const c2: number;
-const c3, c4, c5 :string, c6;  // error, missing initialicer
+const c3, c4, c5 :string, c6;  // error, missing initializer
 
 for(const c in {}) { }
 
