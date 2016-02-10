@@ -1,4 +1,4 @@
-//// [emitExponentiationOperatorInTempalteString4.ts]
+//// [emitExponentiationOperatorInTemplateString4.ts]
 
 var t1 = 10;
 var t2 = 10;
@@ -27,7 +27,7 @@ var s;
 `hello ${(~t1) ** t2 ** --t1 }`;
 `hello ${typeof (t1 ** t2 ** t1)}`;
 
-//// [emitExponentiationOperatorInTempalteString4.js]
+//// [emitExponentiationOperatorInTemplateString4.js]
 var t1 = 10;
 var t2 = 10;
 var s;
