@@ -1,12 +1,12 @@
 ===================================================================
-JsFile: es5-souremap-amd.js
-mapUrl: es5-souremap-amd.js.map
+JsFile: es5-sourcemap-amd.js
+mapUrl: es5-sourcemap-amd.js.map
 sourceRoot: 
-sources: es5-souremap-amd.ts
+sources: es5-sourcemap-amd.ts
 ===================================================================
 -------------------------------------------------------------------
-emittedFile:tests/cases/compiler/es5-souremap-amd.js
-sourceFile:es5-souremap-amd.ts
+emittedFile:tests/cases/compiler/es5-sourcemap-amd.js
+sourceFile:es5-sourcemap-amd.ts
 -------------------------------------------------------------------
 >>>var A = (function () {
 1 >
@@ -112,4 +112,4 @@ sourceFile:es5-souremap-amd.ts
 3 >Emitted(8, 2) Source(2, 1) + SourceIndex(0)
 4 >Emitted(8, 6) Source(13, 2) + SourceIndex(0)
 ---
->>>//# sourceMappingURL=es5-souremap-amd.js.map
+>>>//# sourceMappingURL=es5-sourcemap-amd.js.map

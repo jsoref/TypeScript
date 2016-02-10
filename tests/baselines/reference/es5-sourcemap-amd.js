@@ -1,4 +1,4 @@
-//// [es5-souremap-amd.ts]
+//// [es5-sourcemap-amd.ts]
 
 class A
 {
@@ -13,7 +13,7 @@ class A
     }
 }
 
-//// [es5-souremap-amd.js]
+//// [es5-sourcemap-amd.js]
 var A = (function () {
     function A() {
     }
@@ -22,4 +22,4 @@ var A = (function () {
     };
     return A;
 }());
-//# sourceMappingURL=es5-souremap-amd.js.map
+//# sourceMappingURL=es5-sourcemap-amd.js.map
