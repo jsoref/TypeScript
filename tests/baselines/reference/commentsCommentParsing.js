@@ -29,7 +29,7 @@ jsDocMultiLine();
 /** this is multiple line jsdoc stule comment
 *New line1
 *New Line2*/
-/** Shoul merge this line as well
+/** Should merge this line as well
 * and this too*/ /** Another this one too*/
 function jsDocMultiLineMerge() {
 }
@@ -78,12 +78,12 @@ function jsDocMixedComments6() {
 }
 jsDocMixedComments6();
 
-// This shoulnot be help comment
+// This should not be help comment
 function noHelpComment1() {
 }
 noHelpComment1();
 
-/* This shoulnot be help comment */
+/* This should not be help comment */
 function noHelpComment2() {
 }
 noHelpComment2();
@@ -178,7 +178,7 @@ jsDocMultiLine();
 /** this is multiple line jsdoc stule comment
 *New line1
 *New Line2*/
-/** Shoul merge this line as well
+/** Should merge this line as well
 * and this too*/ /** Another this one too*/
 function jsDocMultiLineMerge() {
 }
@@ -219,11 +219,11 @@ jsDocMixedComments5();
 function jsDocMixedComments6() {
 }
 jsDocMixedComments6();
-// This shoulnot be help comment
+// This should not be help comment
 function noHelpComment1() {
 }
 noHelpComment1();
-/* This shoulnot be help comment */
+/* This should not be help comment */
 function noHelpComment2() {
 }
 noHelpComment2();
@@ -303,7 +303,7 @@ declare function jsDocMultiLine(): void;
 /** this is multiple line jsdoc stule comment
 *New line1
 *New Line2*/
-/** Shoul merge this line as well
+/** Should merge this line as well
 * and this too*/ /** Another this one too*/
 declare function jsDocMultiLineMerge(): void;
 /** jsdoc comment */

@@ -37,7 +37,7 @@ jsDocMultiLine();
 /** this is multiple line jsdoc stule comment
 *New line1
 *New Line2*/
-/** Shoul merge this line as well
+/** Should merge this line as well
 * and this too*/ /** Another this one too*/
 function jsDocMultiLineMerge() {
 >jsDocMultiLineMerge : Symbol(jsDocMultiLineMerge, Decl(commentsCommentParsing.ts, 25, 17))
@@ -100,14 +100,14 @@ function jsDocMixedComments6() {
 jsDocMixedComments6();
 >jsDocMixedComments6 : Symbol(jsDocMixedComments6, Decl(commentsCommentParsing.ts, 68, 22))
 
-// This shoulnot be help comment
+// This should not be help comment
 function noHelpComment1() {
 >noHelpComment1 : Symbol(noHelpComment1, Decl(commentsCommentParsing.ts, 77, 22))
 }
 noHelpComment1();
 >noHelpComment1 : Symbol(noHelpComment1, Decl(commentsCommentParsing.ts, 77, 22))
 
-/* This shoulnot be help comment */
+/* This should not be help comment */
 function noHelpComment2() {
 >noHelpComment2 : Symbol(noHelpComment2, Decl(commentsCommentParsing.ts, 82, 17))
 }
