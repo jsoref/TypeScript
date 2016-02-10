@@ -3178,7 +3178,7 @@ These operators require their operands to be of type Any, the Number primitive t
 |String||||||
 |Other||||||
 
-*TODO: Document the [exponentation operator](https://github.com/Microsoft/TypeScript/issues/4812)*.
+*TODO: Document the [exponentiation operator](https://github.com/Microsoft/TypeScript/issues/4812)*.
 
 ### <a name="4.19.2"/>4.19.2 The + operator
 
